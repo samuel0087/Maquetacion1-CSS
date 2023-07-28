@@ -106,11 +106,60 @@ body{
     display: block;
     width: 90%;
     margin: 5px auto;
+    margin-bottom: 20px;
     text-align: center;
-    border-top: 1px solid #343434;
-    border-bottom: 1px solid #343434;
-    background-color: #bbb9b9;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    background-color: #eeeeee;
+}
 
+#lateral .cajita form label{
+    display: block;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+#lateral .cajita form input[type="text"],
+#lateral .cajita form input[type="password"]{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #9e9d9d;
+    box-shadow: 0px 0px 3px #ccc inset;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+#lateral .cajita form input[type="text"]:focus,
+#lateral .cajita form input[type="password"]:focus{
+    outline: none!important;
+    border: 1px solid #79B955!important;
+    box-shadow: 0px 0px 3px #79B955;
+}
+
+#lateral .cajita form input[type="submit"]{
+    display: block;
+    margin: 5px auto;
+    background-color: #79B955;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px #4d7436 inset;
+    margin-bottom: 15px;
+}
+
+#lateral .cajita a{
+    display: block;
+    text-decoration: none;
+    color: #5f8f43;
+    margin-bottom: 2px;
+    transition: 300ms;
+}
+
+
+#lateral .cajita a:hover{
+    text-shadow: 0px 0px 4px #79B955;
 }
 
 #principal{
