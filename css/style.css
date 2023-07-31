@@ -98,7 +98,7 @@ body{
 
 #lateral .cajita{
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     border-bottom: 1px dashed #343434;
 }
 
@@ -107,10 +107,11 @@ body{
     width: 90%;
     margin: 5px auto;
     margin-bottom: 20px;
+    padding: 3px;
     text-align: center;
-    border-top: 1px solid #979797;
-    border-bottom: 1px solid #979797;
-    background-color: #eeeeee;
+    border-top: 1px solid #d1cdcd;
+    border-bottom: 1px solid #d1cdcd;
+    background-color: #f1f1f1;
 }
 
 #lateral .cajita form label{
@@ -147,6 +148,13 @@ body{
     padding: 10px 20px;
     box-shadow: 0px 0px 5px #4d7436 inset;
     margin-bottom: 15px;
+}
+
+#lateral .cajita ul li{
+    list-style: square;
+    margin-top: 5px;
+    margin-left: 30px;
+
 }
 
 #lateral .cajita a{
@@ -276,4 +284,12 @@ footer p{
     display: block;
     text-align: center;
     font-size: 15px;
+}
+
+#blue{
+    color: hsl(226, 59%, 45%);
+}
+
+#red{
+    color: #a90b0b
 }
